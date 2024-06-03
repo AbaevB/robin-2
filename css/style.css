@@ -56,6 +56,16 @@
 
 .text-2 {
   font-size: 16px;
+  font-weight: 400;
+}
+
+.text-3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.text-4 {
+  font-size: 18px;
   font-weight: 700;
 }
 
@@ -64,6 +74,7 @@
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
+  border-radius: 0;
 }
 
 .overline {
@@ -74,10 +85,52 @@
 
 
 
+.list-reset{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-default  {
+  color: var(--text);
+  background-color: var(--primary);
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn-default:hover  {
+  color: var(--primary);
+  background-color: var(--text);
+}
+
+.btn-outline-default  {
+  color: var(--primary);
+  background-color: transparent;
+  border: 1px solid var(--primary);
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out ;
+}
+
+.btn-outline-default:hover {
+  background-color: var(--primary);
+  color: var(--text);
+}
+
+img {
+  max-width: 100%;
+}
+
+.figure {
+  max-width: 100%;
+  margin: 0;
+}
+
 body {
   position: relative;
   min-width: 320px;
   font-family: "Sen", sans-serif;
+}
+
+body::selection {
+  background: #5221e6;
 }
 
 a {
@@ -86,8 +139,16 @@ a {
   outline: none;
 }
 
+.card {
+  height: 100%;
+}
+
 /*----------------------------header----------------------------*/
 
 .header {
-  background-color: var(--base);
+}
+
+
+#more {
+  display: none;
 }
