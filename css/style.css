@@ -84,6 +84,13 @@
 }
 
 
+
+.list-reset{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .btn-default  {
   color: var(--text);
   background-color: var(--primary);
