@@ -659,7 +659,8 @@
                 </li>
               </ul>
               <div class="tab-content" id="pills-tabContent">
-                <div class="tab-pane fade show active" id="pills-italy" role="tabpanel" aria-labelledby="pills-italy-tab">
+                <div class="tab-pane fade show active" id="pills-italy" role="tabpanel"
+                  aria-labelledby="pills-italy-tab">
                   <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-12">
                       <figure class="photography__figure"><img src="img/italy-1.jpg" alt=""></figure>
@@ -771,7 +772,28 @@
           </div>
           <div class="col-md-6 col-sm-12">
             <div class="contact__right">
+              <form method="post" action="https://jsonplaceholder.typicode.com/posts"
+                class="contact__form contact-form d-flex flex-column">
+                <label for="name">
+                  Name</label>
+                <input class="contact-form__item" type="text" name="username" id="name" required
+                  placeholder="Your Name">
 
+                <label for="email">
+                  Email</label>
+                <input class="contact-form__item" type="email" name="useremail" id="email" required
+                  placeholder="Your email">
+                <label for="message">
+                  Message</label>
+                <textarea class="contact-form__textarea" name="message" id="message" required
+                  placeholder="Enter your message"></textarea>
+                <label for="check"><input type="checkbox" name="check" id="check" required>I consent to
+                  the processing of personal data</label>
+
+                <button class="contact-form__btn" type="submit">
+                  Let&rsquo;s get started
+                </button>
+              </form>
             </div>
           </div>
         </div><!--/row-->
