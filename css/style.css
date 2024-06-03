@@ -146,6 +146,23 @@ a {
 /*----------------------------header----------------------------*/
 
 .header {
+  background-color: var(--level-1);
+}
+
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.header__link {
+  height: 100%;
+  padding: 32px 24px !important;
+  color: var(--text) !important;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.header__link:hover {
+  background-color: var(--primary);
 }
 
 
