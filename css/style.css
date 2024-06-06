@@ -272,6 +272,27 @@ a {
   color: var(--lgrey);
 }
 
+/*----------------------------philosophy----------------------------*/
+
+.philosophy {
+  background-color: var(--custompeach);
+  color: var(--stronggrey);
+}
+
+.philosophy__content  {
+  padding-top: 120px;
+}
+
+.philosophy__title  {
+  margin-bottom: 24px;
+  color: var(--level-1);
+}
+
+.philosophy__text {
+  margin-bottom: 24px;
+  line-height: 27px;
+}
+
 
 
 
