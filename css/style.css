@@ -421,3 +421,47 @@ figure {
 #more {
   display: none;
 }
+
+/*------------------------photograpy------------------------*/
+
+.photography__title {
+  margin-bottom: 24px;
+}
+
+.photography__descr {
+  margin-bottom: 64px;
+  max-width: 588px;
+  line-height: 27px;
+  color: #8491A0;
+}
+
+.photography__nav {
+  margin-bottom: 40px;
+}
+
+
+.photography__link.active {
+  color: var(--text);
+  background-color: var(--primary);
+  pointer-events: none;
+}
+
+.tab-pane  {
+  display: none;
+}
+
+.tab-pane.active  {
+  display: block;
+}
+
+.faded  {
+  opacity: 0;
+  transform: translateX(600px);
+  transition: opacity 0.5s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.faded.in {
+  opacity: 1;
+  transform: translateX(0px);
+  transition: opacity 0.5s ease-in-out, transform 0.3s ease-in-out;
+}

@@ -692,35 +692,22 @@
               </p>
             </div><!--/photography__top-->
             <div class="photography__bottom">
-              <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                <li class="nav-item" role="presentation">
-                  <a class="nav-link photography__link active" id="pills-italy-tab" data-toggle="pill"
-                    href="#pills-italy" role="tab" aria-controls="pills-italy" aria-selected="true">
-                    Italy
-                  </a>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <a class="nav-link photography__link" id="pills-australia-tab" data-toggle="pill"
-                    href="#pills-australia" role="tab" aria-controls="pills-australia" aria-selected="false">
-                    Ausralia
-                  </a>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <a class="nav-link photography__link" id="pills-india-tab" data-toggle="pill" href="#pills-india"
-                    role="tab" aria-controls="pills-india" aria-selected="false">
-                    India
-                  </a>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <a class="nav-link photography__link" id="pills-brazil-tab" data-toggle="pill" href="#pills-brazil"
-                    role="tab" aria-controls="pills-brazil" aria-selected="false">
-                    Brazil
-                  </a>
-                </li>
-              </ul>
-              <div class="tab-content" id="pills-tabContent">
-                <div class="tab-pane fade show active" id="pills-italy" role="tabpanel"
-                  aria-labelledby="pills-italy-tab">
+              <nav class="btn-group photography__nav" role="group" aria-label="Gallery navigation">
+                <a href="#italy" class="btn btn-outline-default photography__link active">
+                  Italy
+                </a>
+                <a href="#australia" class="btn btn-outline-default photography__link">
+                  Australia
+                </a>
+                <a href="#india" class="btn btn-outline-default photography__link">
+                  India
+                </a>
+                <a href="#brazil" class="btn btn-outline-default photography__link">
+                  Brazil
+                </a>
+              </nav>
+              <div class="tabs-content">
+                <div id="italy" class="tab-pane active faded in">
                   <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-12">
                       <figure class="photography__figure"><img src="img/italy-1.jpg" alt=""></figure>
@@ -734,9 +721,9 @@
                     <div class="col-lg-3 col-md-6 col-sm-12">
                       <figure class="photography__figure"><img src="img/italy-4.jpg" alt=""></figure>
                     </div>
-                  </div>
+                  </div><!--/row-->
                 </div><!--/tab-pane-->
-                <div class="tab-pane fade" id="pills-australia" role="tabpanel" aria-labelledby="pills-australia-tab">
+                <div id="australia" class="tab-pane faded" >
                   <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-12">
                       <figure class="photography__figure">
@@ -758,9 +745,9 @@
                         <img src="img/australia-4.jpg" alt="australia-4">
                       </figure>
                     </div>
-                  </div>
+                  </div><!--/row-->
                 </div><!--/tab-pane-->
-                <div class="tab-pane fade" id="pills-india" role="tabpanel" aria-labelledby="pills-india-tab">
+                <div id="india" class="tab-pane faded">
                   <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-12">
                       <figure class="photography__figure">
@@ -782,9 +769,9 @@
                         <img src="img/india-4.jpg" alt="india-4">
                       </figure>
                     </div>
-                  </div>
+                  </div><!--/row-->
                 </div><!--/tab-pane-->
-                <div class="tab-pane fade" id="pills-brazil" role="tabpanel" aria-labelledby="pills-brazil-tab">
+                <div id="brazil" class="tab-pane faded">
                   <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-12">
                       <figure class="photography__figure">
@@ -806,11 +793,9 @@
                         <img src="img/brazil-4.jpg" alt="brazil-4">
                       </figure>
                     </div>
-                  </div>
+                  </div><!--/row-->
                 </div><!--/tab-pane-->
-              </div><!--/tab-content-->
-
-
+              </div><!--/tabs-content-->
             </div>
           </div><!--/col-->
 

@@ -33,3 +33,20 @@ $('#toTop').on('click', function() {
 function readMore(){
   alert('Функция Readmore еще не написана!');
 }
+
+// tabs
+
+$('.photography__link ').on('click', function(e){
+  e.preventDefault();
+
+  $('.photography__link ').removeClass('active');
+  $(this).addClass('active');
+
+  let href = $(this).attr('href');
+  $('.tab-pane').removeClass('active').removeClass('in');
+  $(href).addClass('active');
+
+  setTimeout(function(){
+      $(href).addClass('in');
+  }, 300);
+} );
