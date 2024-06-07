@@ -293,7 +293,34 @@ a {
   line-height: 27px;
 }
 
+/*----------------------------skillset----------------------------*/
 
+
+.skillset__title   {
+  margin-bottom: 24px;
+}
+
+.skillset__text {
+  line-height: 27px;
+  color: #8491a0;
+}
+
+.skillset__item {
+  margin-bottom: 48px;
+}
+
+.skill-card {
+  background-color: var(--base);
+}
+
+.skill-card__title  {
+  margin-bottom: 12px;
+}
+
+.skill-card__text {
+  line-height: 24px;
+  color:#8491a0 ;
+}
 
 
 #more {
