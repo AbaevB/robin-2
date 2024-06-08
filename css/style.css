@@ -274,6 +274,11 @@ a {
 
 /*----------------------------philosophy----------------------------*/
 
+.section-light  {
+  padding: 0;
+  color: var(--stronggrey);
+}
+
 .philosophy {
   background-color: var(--custompeach);
   color: var(--stronggrey);
@@ -291,6 +296,7 @@ a {
 .philosophy__text {
   margin-bottom: 24px;
   line-height: 27px;
+
 }
 
 /*----------------------------skillset----------------------------*/
@@ -449,12 +455,30 @@ figure {
 
 .inst__title  {
   margin-bottom: 24px;
+  color: var(--level-1);
 }
 
 .inst__text {
   margin-bottom: 24px;
 }
 
+/*------------------------Dribbble------------------------*/
+
+.dribbble-title {
+  margin-bottom: 24px;
+}
+
+.dribbble__text {
+  margin-bottom: 40px;
+  max-width: 636px;
+  line-height: 27px;
+  color: #8491a0;
+}
+
+.dribbble__btn  {
+  margin-bottom: 120px;
+  color: var(--text);
+}
 
 /*------------------------photograpy------------------------*/
 
