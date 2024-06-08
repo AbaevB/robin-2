@@ -344,6 +344,21 @@ a {
 
 }
 
+
+.partners__link {
+  transition: fill 0.3s ease-in-out;
+}
+
+.partners__link svg path  {
+  fill: #8491a0;
+}
+
+.partners__link:hover svg path  {
+  fill: var(--primary);
+}
+
+
+
 /*------------------------work------------------------*/
 
 .work {
@@ -421,6 +436,25 @@ figure {
 #more {
   display: none;
 }
+
+/*------------------------inst------------------------*/
+
+.inst{
+  background-color: var(--customviolet);
+}
+
+.inst__content {
+  padding-top: 120px;
+}
+
+.inst__title  {
+  margin-bottom: 24px;
+}
+
+.inst__text {
+  margin-bottom: 24px;
+}
+
 
 /*------------------------photograpy------------------------*/
 
