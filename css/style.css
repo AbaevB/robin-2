@@ -546,10 +546,13 @@ figure {
 }
 
 .testimonials-card  {
-  margin-bottom: 120px;
   min-height: 100%;
   background-color: var(--base);
   border: 1px solid var(--stronggrey);
+}
+
+.testimonials-card:not(:last-child) {
+  margin-bottom: 12px;
 }
 
 .testimonials-card__bottom  {
@@ -572,4 +575,44 @@ figure {
   content: '\201d';
   font-size: 64px;
   color: var(--primary);
+}
+
+/*------------------------contact------------------------*/
+
+.contact  {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.contact__title {
+  margin-bottom: 24px;
+}
+
+.contact__text  {
+  line-height: 27px;
+  color: #8491a0;
+}
+
+.contact-form__item {
+  margin-bottom: 40px;
+  padding: 16px;
+  font-size: 18px;
+  background-color: var(--level-1);
+  border: none;
+  outline: none;
+}
+
+.contact-form__textarea {
+  height: 100px;
+  margin-bottom: 40px;
+  padding: 16px;
+  resize: none;
+  font-size: 18px;
+  background-color: var(--level-1);
+  border: none;
+  outline: none;
+}
+
+.contact-form__btn  {
+  line-height: 75px;
 }
